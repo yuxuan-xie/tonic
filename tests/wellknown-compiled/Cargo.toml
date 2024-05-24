@@ -12,9 +12,9 @@ version = "0.1.0"
 doctest = false
 
 [dependencies]
-prost = "0.12"
+prost = {git = "https://github.com/yuxuan-xie/prost.git", branch = "config-oneof-enum-name"}
 tonic = {path = "../../tonic"}
 
 [build-dependencies]
-prost-build = "0.12"
+prost-build = {git = "https://github.com/yuxuan-xie/prost.git", branch = "config-oneof-enum-name"}
 tonic-build = {path = "../../tonic-build"}
